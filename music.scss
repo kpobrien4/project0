@@ -1,9 +1,18 @@
+$color: #038cfc;
+
 th, td {
     padding: 20px;
     border: 1px solid black;
-    width: 200px;
+}
+
+table{
+    width: 100%;
 }
 
 .title{
-    color: #038cfc;
+    color: $color;
+}
+
+ul > ul {
+    color: $color;
 }
